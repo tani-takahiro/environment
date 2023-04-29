@@ -1,0 +1,174 @@
+{
+	"debug.inlineValues": "on",
+	"debug.internalConsoleOptions": "openOnSessionStart",
+	"debug.openDebug": "openOnSessionStart",
+	"editor.bracketPairColorization.enabled": true,
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.cSpell": true,
+		"source.fixAll.eslint": true,
+		"source.fixAll.markdownlint": true
+	},
+	"editor.copyWithSyntaxHighlighting": false,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.detectIndentation": false,
+	"editor.dragAndDrop": false,
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnType": true,
+	"editor.fontFamily": "BIZ UDGothic, Cascadia Code, monospace",
+	"editor.fontLigatures": false,
+	"editor.fontSize": 16,
+	"editor.fontWeight": "bold",
+	"editor.guides.bracketPairs": true,
+	"editor.guides.bracketPairsHorizontal": true,
+	"editor.guides.indentation": false,
+	"editor.indentSize": "tabSize",
+	"editor.insertSpaces": false,
+	"editor.largeFileOptimizations": false,
+	"editor.mouseWheelZoom": true,
+	"editor.minimap.enabled": false,
+	"editor.renderControlCharacters": true,
+	"editor.renderWhitespace": "all",
+	"editor.roundedSelection": false,
+	"editor.rulers": [130],
+	"editor.showFoldingControls": "always",
+	"editor.tabSize": 4,
+	"editor.wordWrap": "on",
+	"explorer.compactFolders": false,
+	"explorer.incrementalNaming": "smart",
+	"files.autoSave": "onFocusChange",
+	"files.eol": "auto",
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+	"search.showLineNumbers": true,
+	"security.workspace.trust.untrustedFiles": "newWindow",
+	"terminal.integrated.confirmOnExit": "always",
+	"terminal.integrated.copyOnSelection": true,
+	"terminal.integrated.defaultLocation": "editor",
+	"terminal.integrated.fontFamily": "Cascadia Code, monospace",
+	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.lineHeight": 1.25,
+	"terminal.integrated.rightClickBehavior": "paste",
+	"window.menuBarVisibility": "compact",
+	"window.title": "${activeEditorMedium}${separator}${rootName}",
+	"workbench.colorTheme": "Monokai Dimmed",
+	"workbench.editorAssociations": {
+		"*.java": "default"
+	},
+	"workbench.editor.enablePreview": false,
+	"workbench.editor.untitled.hint": "hidden",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.productIconTheme": "material-product-icons",
+	"workbench.reduceMotion": "on",
+	"workbench.startupEditor": "welcomePage",
+	"workbench.tree.renderIndentGuides": "always",
+	"workbench.tree.indent": 18,
+	"cSpell.language": "scientific-terms-us, en",
+	"git.autofetch": false,
+	"indentRainbow.colors": [
+		"rgba(153, 40, 57, 0.24)",
+		"rgba(111, 115, 30, 0.24)",
+		"rgba(30, 115, 102, 0.24)",
+		"rgba(85, 30, 115, 0.24)"
+	],
+	"prettier.useTabs": true,
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"csv-preview.openStdin": true,
+	"csv-preview.resizeColumns": "all",
+	"[csv]": {
+		"editor.wordWrap": "off"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"java.format.settings.profile": "GoogleStyle",
+	"java.format.settings.url": "https://raw.githubusercontent.com/redhat-developer/vscode-java/master/formatters/eclipse-formatter.xml",
+	"[java]": {
+		"editor.defaultFormatter": "redhat.java",
+		"editor.formatOnPaste": false
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[log]": {
+		"editor.wordWrap": "off"
+	},
+	"markdownlint.config": {
+		"MD028": false
+	},
+	"markdownlint.run": "onSave",
+	"markdown.preview.doubleClickToSwitchToEditor": false,
+	"markdown.preview.fontFamily": "BIZ UDGothic, Cascadia Code, monospace",
+	"markdown.preview.lineHeight": 1.4,
+	"markdown.preview.markEditorSelection": false,
+	"tableformatter.markdown.tableEdgesType": "Normal",
+	"[markdown]": {
+		"editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+	},
+	"black-formatter.args": ["--line-length = 120"],
+	"ipynb.pasteImagesAsAttachments.enabled": false,
+	"isort.args": ["--profile", "black"],
+	"jupyter.askForKernelRestart": true,
+	"notebook.formatOnSave.enabled": true,
+	"notebook.lineNumbers": "on",
+	"notebook.output.textLineLimit": 50,
+	"python.formatting.provider": "black",
+	"python.linting.enabled": true,
+	"python.linting.flake8Enabled": true,
+	"python.linting.lintOnSave": true,
+	"python.linting.pylintEnabled": false,
+	"python.wasm.runtime": "https://github.com/dbaeumer/python-3.11.0rc",
+	"[python]": {
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": true
+		},
+		"editor.defaultFormatter": "ms-python.black-formatter",
+		"editor.formatOnPaste": false
+	},
+	"[tsv]": {
+		"editor.wordWrap": "off"
+	},
+	"[xml]": {
+		"editor.defaultFormatter": "redhat.vscode-xml"
+	},
+	"yaml.customTags": [
+		"!And",
+		"!And sequence",
+		"!If",
+		"!If sequence",
+		"!Not",
+		"!Not sequence",
+		"!Equals",
+		"!Equals sequence",
+		"!Or",
+		"!Or sequence",
+		"!FindInMap",
+		"!FindInMap sequence",
+		"!Base64",
+		"!Join",
+		"!Join sequence",
+		"!Cidr",
+		"!Ref",
+		"!Sub",
+		"!Sub sequence",
+		"!GetAtt",
+		"!GetAZs",
+		"!ImportValue",
+		"!ImportValue sequence",
+		"!Select",
+		"!Select sequence",
+		"!Split",
+		"!Split sequence"
+	],
+	"[yaml]": {
+		"editor.defaultFormatter": "redhat.vscode-yaml"
+	},
+	"boot-java.rewrite.reconcile": true
+}
