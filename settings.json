@@ -33,7 +33,7 @@
 	"editor.roundedSelection": false,
 	"editor.rulers": [130],
 	"editor.showFoldingControls": "always",
-	"editor.tabSize": 4,
+	"editor.tabSize": 2,
 	"editor.wordWrap": "on",
 	"explorer.compactFolders": false,
 	"explorer.incrementalNaming": "smart",
