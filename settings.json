@@ -67,6 +67,7 @@
 	"workbench.tree.indent": 18,
 	"cSpell.language": "scientific-terms-us, en",
 	"git.autofetch": false,
+	"git.ignoreMissingGitWarning": true,
 	"indentRainbow.colors": [
 		"rgba(153, 40, 57, 0.24)",
 		"rgba(111, 115, 30, 0.24)",
@@ -85,6 +86,7 @@
 	"[html]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
+	"boot-java.rewrite.reconcile": true,
 	"java.format.settings.profile": "GoogleStyle",
 	"java.format.settings.url": "https://raw.githubusercontent.com/redhat-developer/vscode-java/master/formatters/eclipse-formatter.xml",
 	"[java]": {
@@ -169,6 +171,5 @@
 	],
 	"[yaml]": {
 		"editor.defaultFormatter": "redhat.vscode-yaml"
-	},
-	"boot-java.rewrite.reconcile": true
+	}
 }
